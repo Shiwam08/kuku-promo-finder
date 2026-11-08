@@ -1,0 +1,17 @@
+# Kuku's screenplays are confidential: never commit them
+data/
+*.zip
+.cache/
+outputs/*/.cache/
+__pycache__/
+.env
+qa/blind_key.json
+outputs/
+# review sheets contain screenplay transcripts (confidential)
+qa/
+blind_review*.csv
+# local only
+venv/
+CONTEXT.md
+.DS_Store
+submission/
